@@ -34,7 +34,7 @@ jobs:
     # Git args passed when running `git pull` against the upstream repo, e.g. --ff-only or --tags :: default = ""
 #           upstream_pull_args: # optional, default is 
     # Git args passed when running `git push` to apply changes to the source repo, e.g. --force :: default = ""
-#           target_branch_push_args: # optional, default is 
+          target_branch_push_args: --force # optional, default is 
     # Git user credentials for sigining commit, (set to "null" for no config)
 #           git_config_user: # default is GH Action - Upstream Sync
     # Git email credentials for sigining commit (set to "null" for no config)
